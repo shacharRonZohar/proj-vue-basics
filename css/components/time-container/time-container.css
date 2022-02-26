@@ -1,0 +1,10 @@
+@import url(time-display.css);
+@import url(count-down.css);
+
+.time-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 70vh;
+}

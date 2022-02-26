@@ -1,0 +1,7 @@
+.mouse-tracker {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    bottom: 10px;
+    left: 10px;
+}

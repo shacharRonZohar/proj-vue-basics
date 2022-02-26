@@ -1,0 +1,15 @@
+.time-display {
+    padding: 50px 100px;
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.time-display .curr-time {
+    text-align: center;
+}
+
+.time-display.dark-bg {
+    background-color: rgb(5, 88, 88);
+}

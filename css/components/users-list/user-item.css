@@ -1,0 +1,23 @@
+.user-item {
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.user-item .name {
+    grid-area: 3/3;
+}
+
+.user-item .btn {
+    margin-left: 5px;
+}
+
+.user-item.curr-user {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
